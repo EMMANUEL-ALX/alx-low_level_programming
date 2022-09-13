@@ -1,19 +1,18 @@
 #include "main.h"
-                                                  /**
- * main - Entry point
- *
- *Return :0on success always
+#include <ctype.h>
+/**
+ * _islower - Check Holberton
+ * @c: Input character
+ * Description: function uses _putchar function to print
+ * alphabet in lowercase 10 times
+ * Return: 1 if is lowercase or 0 if is uppercase
  */
-                                                   int main(void)                                    {
-          char emma [8] = "_putchar";
-          int i;
+int _islower(int c)
+{
 
-
-          for  (i=0; i < 8; i++)
-  {
-                  _putchar(emma([i]);
-}
-_putchar('\n');
-
-          return (0);
+	if (islower(c))
+	{
+		return (1);
+	}
+	return (0);
 }
