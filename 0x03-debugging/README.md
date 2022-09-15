@@ -1,1 +1,1 @@
-0x03-debugging functions.
+Debugging functions.
